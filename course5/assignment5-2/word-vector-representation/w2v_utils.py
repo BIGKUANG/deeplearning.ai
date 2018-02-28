@@ -99,7 +99,7 @@ class SimilarityCallback:
     
 
 def read_glove_vecs(glove_file):
-    with open(glove_file, 'r') as f:
+    with open(glove_file, 'r',encoding='utf8') as f:
         words = set()
         word_to_vec_map = {}
         
